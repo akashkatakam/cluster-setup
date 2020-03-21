@@ -16,6 +16,15 @@ type: application
 # to the chart and its templates, including the app version.
 version: 0.1.0
 
+dependencies:
+- name: nginx-ingress
+  version: 1.34.2 # Also from the search results above
+  repository: https://kubernetes-charts.storage.googleapis.com
+
+- name: cert-manager
+  version: 0.8.1
+  repository: https://charts.jetstack.io
+
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application.
 appVersion: 1.16.0

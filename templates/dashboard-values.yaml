@@ -1,6 +1,0 @@
-# extraArgs:
-#   - --enable-skip-login
-#   - --disable-settings-authorizer        
-#   - --auto-generate-certificates
-# rbac:
-#   clusterAdminRole: true
