@@ -1,0 +1,9 @@
+dependencies:
+- name: oauth2-proxy
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 2.3.0
+- name: kubernetes-dashboard
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 1.10.1
+digest: sha256:55613dfaeebf950f4db8ac6a93407d7e56a736ffb783e8a0bdc8418fd1aad16f
+generated: "2020-03-21T13:58:57.104408298-04:00"

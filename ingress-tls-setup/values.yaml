@@ -1,0 +1,9 @@
+nginx-ingress:
+  controller: 
+    service: 
+      type: LoadBalancer
+
+cert-manager:
+  ingressShim:
+    defaultIssuerName: letsencrypt-prod
+    defaultIssuerKind: ClusterIssuer
